@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.img-content{
+	width: 100%;
+	height: 300px;
+}
+.img-product {
+	height: 100%;
+	object-fit: cover; 
+	cursor: pointer;
+	transition: transform 0.4s ease-in-out;;
+}
+
+.img-product:hover {
+	transform: scale(0.9);
+}
